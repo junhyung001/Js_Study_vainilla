@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Valnilla</title>
+</head>
+<body>
+    <h2 id="clock">00:00:00</h2>
+    <div class="container">
+        <form id="login-form" class="hidd6en">
+            <div id="center">
+            <input 
+            type="text"
+            required
+            maxlength="15"
+            placeholder="What is your name?"
+            />
+            <input type="submit" value="Log In">
+            </div>
+        </form>
+        <h1 class="hidden" id="greeting"></h1>
+    </div>
+
+    <div id="quote">
+        <span></span><br>
+        <span></span>
+    </div>
+
+    <form id="todo-form">
+        <input type="text" placeholder="Write a TO Do and Press Enter" required>
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    
+    <script src="Javascript/quotes.js"></script>
+    <script src="Javascript/Timeout_and_Date.js"></script>
+    <script src="Javascript/weather.js"></script>
+    <script src="Javascript/todo.js"></script>
+    <script src="Javascript/Input_value.js"></script>
+    <script src="Javascript/background.js"></script>
+</body>
+</html>
